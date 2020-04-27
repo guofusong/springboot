@@ -15,7 +15,7 @@ public class Application {
 	
 	public static void main(String[] args) {
 		
-		String propertyStr = new SpringBootLoadingDefaultProperties().setConfigLocation("spring.config.location").addProperties("file:./conf/application.properties").builder();
+		String propertyStr = new SpringBootLoadingDefaultProperties().setConfigLocation("spring.config.location").addProperties("file:/conf/application.properties").builder();
 		
 		logger.info("------------> 默认配置文件：" + propertyStr);
 

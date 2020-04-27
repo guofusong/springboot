@@ -3,7 +3,10 @@
   <groupId>fun.hijklmn</groupId>
   <artifactId>springboot-pom</artifactId>
   <version>1.0.0</version>
-  <packaging>pom</packaging>
+	<modules>
+		<module>springboot-search</module>
+	</modules>
+	<packaging>pom</packaging>
   <name>springboot-pom</name>
   <description>springboot project maven dependency manager</description>
   
